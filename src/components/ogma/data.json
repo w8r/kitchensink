@@ -1,0 +1,267 @@
+{
+    "config": {
+        "timezone": "America/Chicago",
+        "start": "2017-01-17T00:00:00-06:00",
+        "end": "2017-01-19T23:59:59-06:00",
+        "databases": [{
+            "id": 18291,
+            "name": "#sibo",
+            "type": "predicate"
+        }, {
+            "id": 569,
+            "name": "#bcsm",
+            "type": "predicate"
+        }],
+        "filters": [],
+        "max": 5
+    },
+    "nodes": [
+        {
+            "user": {
+                "id": "1",
+                "source_predicate_id": 41,
+                "screen_name": "wiley",
+                "display_name": "Patient Wile E. Coyote",
+                "description": "Lorem ipsum roadrunner sic met.",
+                "website": "http://looneytunes.com/mIfNjWel",
+                "location_freeform": "Roadrunner Country",
+                "location_parsed": {
+                    "id": 261,
+                    "country": "United States",
+                    "country_code": "US",
+                    "region": "California",
+                    "region_code": "CA",
+                    "city": "San Francisco",
+                    "coordinates": [-122.4194, 37.7749]
+                },
+                "profile_image": "https://pbs.twimg.com/profile_images/759131090758041600/fs3_81YJ_normal.jpg",
+                "language": "en",
+                "timezone": "Pacific/Guam",
+                "utc_offset": 3600,
+                "stakeholder_categories": [{
+                                    "id": 4,
+                                    "name": "Patient"
+                                }],
+                "tweets": 3265,
+                "favorites": 872,
+                "followers": 2848,
+                "friends": 572,
+                "lists": 56,
+                "created_at": "2011-05-28T02:38:00-07:00"
+            },
+            "mentions": 9
+        },
+        {
+            "user": {
+                "id": "2",
+                "source_predicate_id": 41,
+                "screen_name": "wiley",
+                "display_name": "Patient Wile E. Coyote,  MD",
+                "description": "Lorem ipsum roadrunner sic met.",
+                "website": "http://looneytunes.com/mIfNjWel",
+                "location_freeform": "Roadrunner Country",
+                "location_parsed": {
+                    "id": 261,
+                    "country": "United States",
+                    "country_code": "US",
+                    "region": "California",
+                    "region_code": "CA",
+                    "city": "San Francisco",
+                    "coordinates": [-122.4194, 37.7749]
+                },
+                "profile_image": "https://pbs.twimg.com/profile_images/830817004248444928/RdqEUKg1_normal.jpg",
+                "language": "en",
+                "timezone": "Pacific/Guam",
+                "utc_offset": 3600,
+                "stakeholder_categories": [{
+                                    "id": 4,
+                                    "name": "Patient"
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Doctor"
+                                }
+                            ],
+                "tweets": 3265,
+                "favorites": 872,
+                "followers": 2848,
+                "friends": 572,
+                "lists": 56,
+                "created_at": "2011-05-28T02:38:00-07:00"
+            },
+            "mentions": 14
+        },
+        {
+            "user": {
+                "id": "3",
+                "source_predicate_id": 41,
+                "screen_name": "wiley",
+                "display_name": "Wile E. Coyote MD",
+                "description": "Lorem ipsum roadrunner sic met.",
+                "website": "http://looneytunes.com/mIfNjWel",
+                "location_freeform": "Roadrunner Country",
+                "location_parsed": {
+                    "id": 261,
+                    "country": "United States",
+                    "country_code": "US",
+                    "region": "California",
+                    "region_code": "CA",
+                    "city": "San Francisco",
+                    "coordinates": [-122.4194, 37.7749]
+                },
+                "profile_image": "https://pbs.twimg.com/profile_images/839969019516014593/YxN32m2p_normal.jpg",
+                "language": "en",
+                "timezone": "Pacific/Guam",
+                "utc_offset": 3600,
+                "stakeholder_categories": [{
+                                    "id": 4,
+                                    "name": "Doctor"
+                                }],
+                "tweets": 3265,
+                "favorites": 872,
+                "followers": 2848,
+                "friends": 572,
+                "lists": 56,
+                "created_at": "2011-05-28T02:38:00-07:00"
+            },
+            "mentions": 29
+        },
+        {
+            "user": {
+                "id": "4",
+                "source_predicate_id": 41,
+                "screen_name": "wiley",
+                "display_name": "Wile E. Coyote MD",
+                "description": "Lorem ipsum roadrunner sic met.",
+                "website": "http://looneytunes.com/mIfNjWel",
+                "location_freeform": "Roadrunner Country",
+                "location_parsed": {
+                    "id": 261,
+                    "country": "United States",
+                    "country_code": "US",
+                    "region": "California",
+                    "region_code": "CA",
+                    "city": "San Francisco",
+                    "coordinates": [-122.4194, 37.7749]
+                },
+                "profile_image": "https://pbs.twimg.com/profile_images/662777850726977536/ITKPZxGC_normal.png",
+                "language": "en",
+                "timezone": "Pacific/Guam",
+                "utc_offset": 3600,
+                "stakeholder_categories": [{
+                                    "id": 4,
+                                    "name": "Doctor"
+                                }],
+                "tweets": 3265,
+                "favorites": 872,
+                "followers": 2848,
+                "friends": 572,
+                "lists": 56,
+                "created_at": "2011-05-28T02:38:00-07:00"
+            },
+            "mentions": 29
+        },
+        {
+            "user": {
+                "id": "5",
+                "source_predicate_id": 41,
+                "screen_name": "wiley",
+                "display_name": "Wile E. Coyote MD",
+                "description": "Lorem ipsum roadrunner sic met.",
+                "website": "http://looneytunes.com/mIfNjWel",
+                "location_freeform": "Roadrunner Country",
+                "location_parsed": {
+                    "id": 261,
+                    "country": "United States",
+                    "country_code": "US",
+                    "region": "California",
+                    "region_code": "CA",
+                    "city": "San Francisco",
+                    "coordinates": [-122.4194, 37.7749]
+                },
+                "profile_image": "https://pbs.twimg.com/profile_images/534129393174474752/nIER26qY_normal.jpeg",
+                "language": "en",
+                "timezone": "Pacific/Guam",
+                "utc_offset": 3600,
+                "stakeholder_categories": [{
+                                    "id": 4,
+                                    "name": "Doctor"
+                                }],
+                "tweets": 3265,
+                "favorites": 872,
+                "followers": 2848,
+                "friends": 572,
+                "lists": 56,
+                "created_at": "2011-05-28T02:38:00-07:00"
+            },
+            "mentions": 29
+        },
+        {
+            "user": {
+                "id": "6",
+                "source_predicate_id": 41,
+                "screen_name": "wiley",
+                "display_name": "Wile E. Coyote MD",
+                "description": "Lorem ipsum roadrunner sic met.",
+                "website": "http://looneytunes.com/mIfNjWel",
+                "location_freeform": "Roadrunner Country",
+                "location_parsed": {
+                    "id": 261,
+                    "country": "United States",
+                    "country_code": "US",
+                    "region": "California",
+                    "region_code": "CA",
+                    "city": "San Francisco",
+                    "coordinates": [-122.4194, 37.7749]
+                },
+                "profile_image": "https://pbs.twimg.com/profile_images/729597834035666944/jrVI_XFr_normal.jpg",
+                "language": "en",
+                "timezone": "Pacific/Guam",
+                "utc_offset": 3600,
+                "stakeholder_categories": [{
+                                    "id": 4,
+                                    "name": "Doctor"
+                                }],
+                "tweets": 3265,
+                "favorites": 872,
+                "followers": 2848,
+                "friends": 572,
+                "lists": 56,
+                "created_at": "2011-05-28T02:38:00-07:00"
+            },
+            "mentions": 29
+        }
+
+    ],
+    "edges": [
+        {
+            "from": "2",
+            "to": "1",
+            "count": 2
+        },
+        {
+            "from": "1",
+            "to": "3",
+            "count": 3
+        },
+        {
+            "from": "3",
+            "to": "2",
+            "count": 4
+        },
+        {
+            "from": "5",
+            "to": "4",
+            "count": 4
+        },
+        {
+            "from": "6",
+            "to": "2",
+            "count": 4
+        },{
+            "from": "5",
+            "to": "3",
+            "count": 4
+        }
+    ]
+}

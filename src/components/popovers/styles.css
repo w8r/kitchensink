@@ -1,0 +1,57 @@
+.target {
+	cursor: pointer;
+	user-select: none;
+}
+
+/* Popover */
+
+.Popover-body {
+  padding: 8rem;
+}
+
+
+
+/* Target */
+
+.target {
+  cursor: pointer;
+  user-select: none;
+}
+
+.target:not(.isOpen) {
+  opacity: 0.5;
+}
+
+.target.isOpen {
+  color: hsla(354, 91%, 60%, 1);
+}
+
+
+
+.Taps {
+  margin-right: 3rem;
+}
+
+.Tap {
+  display: inline-block;
+}
+
+/* Popover */
+
+.Popover-body {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  /*background: hsl(0, 100%, 100%);*/
+  background: #ccc;
+  color: white;
+  border-radius: 0.3rem;
+  /*border: 1px solid #000;*/
+/*  box-shadow: 1px 3px 10px #000;*/
+}
+
+.Popover-tipShape {
+  /*fill: hsl(0, 0%, 27%);*/
+  fill: #ccc;
+}
+
