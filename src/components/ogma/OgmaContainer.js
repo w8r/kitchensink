@@ -30,8 +30,8 @@ class OgmaContainer extends Component {
                 text: nodes.user.display_name,
                 size: nodes.mentions,
                 halo: false,
-                x: Math.random() * 100,
-                y: Math.random() * 100,
+                // x: Math.random() * 100,
+                // y: Math.random() * 100,
                 data: {
                 	categories: _.map(nodes.user.stakeholder_categories, "name"),
                 }
@@ -95,19 +95,19 @@ class OgmaContainer extends Component {
 
 		this.props.ogma.layouts.start('forceLink', {
 			// layout parameters
-			scalingRatio: 0.6,
-			gravity: 40,
-			adjustSizes: false,
-			edgeWeightInfluence: 1,
+			scalingRatio: 400,
+			gravity: 10,
+			adjustSizes: true,
+			// edgeWeightInfluence: 1,
 			linLogMode: false,
 			strongGravityMode: false,
 			outboundAttractionDistribution: false,
-			slowDown: 1,
+			slowDown: 0.1,
 			alignNodeSiblings: true, 
 			nodeSiblingsScale: 100,
 			nodeSiblingsAngleMin: 3,
 			autoStop: true,
-			maxIterations: 10,
+			maxIterations: 1000,
 			avgDistanceThreshold: 0.01,
 			startingIterations: 10,
 			iterationsPerRender:  10,
@@ -121,6 +121,7 @@ class OgmaContainer extends Component {
 			onEnd: this.endLayout
 		});
 	}
+
 	render(){
 		return(
 			<div id='ogma-react' style={{width:'100%', height: '600px'}}>Ogma Container</div>

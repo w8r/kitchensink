@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import Layout from './Layout';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Network from './components/ogma';
+import Popovers from './components/popovers';
 
 export default class App extends Component {
   render() {
@@ -14,7 +15,8 @@ export default class App extends Component {
 
 		    <Router>
 				<Layout>
-					<Route path="/" component={Network} />
+					<Route path="/ogma" component={Network} />
+					<Route path="/popover" component={Popovers} />
 		    	</Layout>
 		    </Router>
 		</div>

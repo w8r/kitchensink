@@ -31,9 +31,9 @@ class Popovers extends Component {
 	renderPopover(){	
 		return(
 			<Popover isOpen={this.state.isOpen} body={this.content()}>
-				<div onClick={this.toggle} className="target">
+				<a onClick={this.toggle} className="target">
 					click me
-				</div>
+				</a>
 			</Popover>
 
 		);
