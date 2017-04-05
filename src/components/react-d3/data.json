@@ -1,0 +1,423 @@
+
+{
+    "config": {
+        "timezone": "America/Chicago",
+        "start": "2017-01-17T00:00:00-06:00",
+        "end": "2017-01-19T23:59:59-06:00",
+        "databases": [{
+            "id": 18291,
+            "name": "#sibo",
+            "type": "predicate"
+        }, {
+            "id": 569,
+            "name": "#bcsm",
+            "type": "predicate"
+        }],
+        "filters": [],
+        "omit_default_stopwords": true,
+        "custom_stopwords": [],
+        "max": 50
+    },
+    "counts": [
+      {
+        "word": "cancer",
+        "count": 1765
+      },
+      {
+        "word": "breast",
+        "count": 1644
+      },
+      {
+        "word": "women",
+        "count": 568
+      },
+      {
+        "word": "risk",
+        "count": 548
+      },
+      {
+        "word": "awareness",
+        "count": 402
+      },
+      {
+        "word": "pink",
+        "count": 324
+      },
+      {
+        "word": "help",
+        "count": 294
+      },
+      {
+        "word": "treatment",
+        "count": 234
+      },
+      {
+        "word": "study",
+        "count": 232
+      },
+      {
+        "word": "know",
+        "count": 232
+      },
+      {
+        "word": "great",
+        "count": 231
+      },
+      {
+        "word": "patients",
+        "count": 224
+      },
+      {
+        "word": "thanks",
+        "count": 213
+      },
+      {
+        "word": "latest",
+        "count": 201
+      },
+      {
+        "word": "men",
+        "count": 194
+      },
+      {
+        "word": "read",
+        "count": 192
+      },
+      {
+        "word": "screening",
+        "count": 188
+      },
+      {
+        "word": "research",
+        "count": 188
+      },
+      {
+        "word": "support",
+        "count": 188
+      },
+      {
+        "word": "diet",
+        "count": 184
+      },
+      {
+        "word": "share",
+        "count": 180
+      },
+      {
+        "word": "march",
+        "count": 162
+      },
+      {
+        "word": "reduce",
+        "count": 160
+      },
+      {
+        "word": "news",
+        "count": 159
+      },
+      {
+        "word": "breakthrough",
+        "count": 156
+      },
+      {
+        "word": "image",
+        "count": 156
+      },
+      {
+        "word": "áncerdemama",
+        "count": 156
+      },
+      {
+        "word": "twitter",
+        "count": 152
+      },
+      {
+        "word": "best",
+        "count": 146
+      },
+      {
+        "word": "mediterranean",
+        "count": 140
+      },
+      {
+        "word": "day",
+        "count": 140
+      },
+      {
+        "word": "survivors",
+        "count": 140
+      },
+      {
+        "word": "cure",
+        "count": 132
+      },
+      {
+        "word": "need",
+        "count": 126
+      },
+      {
+        "word": "diagnosed",
+        "count": 126
+      },
+      {
+        "word": "drop",
+        "count": 122
+      },
+      {
+        "word": "better",
+        "count": 120
+      },
+      {
+        "word": "bombs",
+        "count": 118
+      },
+      {
+        "word": "health",
+        "count": 118
+      },
+      {
+        "word": "early",
+        "count": 118
+      },
+      {
+        "word": "love",
+        "count": 118
+      },
+      {
+        "word": "palestinian",
+        "count": 116
+      },
+      {
+        "word": "drones",
+        "count": 116
+      },
+      {
+        "word": "today",
+        "count": 116
+      },
+      {
+        "word": "chemical",
+        "count": 116
+      },
+      {
+        "word": "week",
+        "count": 116
+      },
+      {
+        "word": "zionist",
+        "count": 116
+      },
+      {
+        "word": "feminism",
+        "count": 116
+      },
+      {
+        "word": "blood",
+        "count": 110
+      },
+      {
+        "word": "therapy",
+        "count": 110
+      },
+      {
+        "word": "free",
+        "count": 110
+      },
+      {
+        "word": "testing",
+        "count": 108
+      },
+      {
+        "word": "talk",
+        "count": 108
+      },
+      {
+        "word": "exciting",
+        "count": 108
+      },
+      {
+        "word": "people",
+        "count": 106
+      },
+      {
+        "word": "data",
+        "count": 106
+      },
+      {
+        "word": "learn",
+        "count": 106
+      },
+      {
+        "word": "life",
+        "count": 106
+      },
+      {
+        "word": "chemo",
+        "count": 104
+      },
+      {
+        "word": "surgery",
+        "count": 104
+      },
+      {
+        "word": "years",
+        "count": 104
+      },
+      {
+        "word": "metastatic",
+        "count": 102
+      },
+      {
+        "word": "results",
+        "count": 102
+      },
+      {
+        "word": "heel",
+        "count": 102
+      },
+      {
+        "word": "impact",
+        "count": 100
+      },
+      {
+        "word": "survivor",
+        "count": 100
+      },
+      {
+        "word": "month",
+        "count": 100
+      },
+      {
+        "word": "available",
+        "count": 98
+      },
+      {
+        "word": "google",
+        "count": 98
+      },
+      {
+        "word": "genetic",
+        "count": 98
+      },
+      {
+        "word": "journey",
+        "count": 98
+      },
+      {
+        "word": "drug",
+        "count": 98
+      },
+      {
+        "word": "daily",
+        "count": 97
+      },
+      {
+        "word": "work",
+        "count": 96
+      },
+      {
+        "word": "signs",
+        "count": 96
+      },
+      {
+        "word": "family",
+        "count": 96
+      },
+      {
+        "word": "doctor",
+        "count": 94
+      },
+      {
+        "word": "raise",
+        "count": 92
+      },
+      {
+        "word": "using",
+        "count": 92
+      },
+      {
+        "word": "ribbon",
+        "count": 92
+      },
+      {
+        "word": "thank",
+        "count": 90
+      },
+      {
+        "word": "walk",
+        "count": 88
+      },
+      {
+        "word": "story",
+        "count": 88
+      },
+      {
+        "word": "úmatealrosa",
+        "count": 88
+      },
+      {
+        "word": "mastectomy",
+        "count": 88
+      },
+      {
+        "word": "blog",
+        "count": 86
+      },
+      {
+        "word": "patient",
+        "count": 86
+      },
+      {
+        "word": "recovery",
+        "count": 86
+      },
+      {
+        "word": "morning",
+        "count": 86
+      },
+      {
+        "word": "fight",
+        "count": 84
+      },
+      {
+        "word": "good",
+        "count": 84
+      },
+      {
+        "word": "tonight",
+        "count": 84
+      },
+      {
+        "word": "brewster",
+        "count": 80
+      },
+      {
+        "word": "pts",
+        "count": 80
+      },
+      {
+        "word": "brca",
+        "count": 78
+      },
+      {
+        "word": "type",
+        "count": 78
+      },
+      {
+        "word": "follow",
+        "count": 78
+      },
+      {
+        "word": "outcome",
+        "count": 78
+      },
+      {
+        "word": "following",
+        "count": 78
+      },
+      {
+        "word": "connections",
+        "count": 78
+      }
+    ]
+}

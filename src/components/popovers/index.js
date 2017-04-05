@@ -30,7 +30,11 @@ class Popovers extends Component {
 
 	renderPopover(){	
 		return(
-			<Popover isOpen={this.state.isOpen} body={this.content()}>
+			<Popover 
+				isOpen={this.state.isOpen} 
+				body={this.content()}
+				onOuterAction={this.toggle} 
+				>
 				<a onClick={this.toggle} className="target">
 					click me
 				</a>

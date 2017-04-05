@@ -1,60 +1,43 @@
 import React, { Component } from "react";
 import Ogma from "../../js/ogma/ogma.min.js";
+import SampleData from './data.json';
 import OgmaContainer from './OgmaContainer';
+import _ from 'lodash';
 
 class Network extends Component {
 
     constructor(props){
         super(props);
         this.ogma = new Ogma({
-            brand: '<p>Powered by Symplur</p>',
-            settings: { 
-                
+            settings: {
                 render: {
-                    backgroundColor: '#fff',
+                    backgroundColor: '#FFFFFF'
+                },
+                texts: {
+                    nodeTextAlignment: 'left'
                 },
                 shapes: {
-                    defaultEdgeShape: "line",
-                    edgesAlwaysCurvy: true,
-                    defaultNodeColor: '#99CCFF'
-                },
-                mouse: {
-                    wheelEnabled: false
-                },
-                // halos: {
-                //     nodeColor: 'yellow',
-                //     nodeSize: 50,
-                //     nodeStrokeColor: 'rgb(236, 81, 72)',
-                //     nodeStrokeWidth: 1,
-                //     nodeClustering: false,
-                //     nodeClusteringMaxRadius: 1000,
-                //     edgeColor: 'black',
-                //     edgeSize: 10
-
-                // },
-                hover: {
-                    nodeOuterStrokeColor: 'rgba(236, 81, 72, 0.2)',
-                    edgeColor: 'rgba(236, 81, 72, 0.2)',
-                    highlightEdgeExtremities: false,
-                    nodes: true,
-                    outline: false
-                },
-                icons: {
-                    defaultScale: 0.7,
-                    defaultColor: 'blue'
-                },
-                legend: {
-                    enabled: true
+                    defaultNodeColor: 'green'
                 }
+            },
+            graph: {
+                nodes: [
+                    {id: 'n1', color: 'red', shape: 'square', x: 0, y: 0, size: 3, text: 'Node 1'},
+                    {id: 'n2', x: 30, y: 10, size: 3, text: 'Node 2'},
+                    {id: 'n3', x: 10, y: 30, size: 2, shape: 'cross', color: 'blue', text: 'Node 3'}
+                ],
+                edges: [
+                    {id: 'e1', source: 'n1', target: 'n2', size: 1},
+                    {id: 'e2', source: 'n2', target: 'n3', size: 1},
+                    {id: 'e3', source: 'n3', target: 'n1', size: 1}
+                ]
             }
-        });
+        })
     }
 
     render(){
         return(
-            <div>
-                <OgmaContainer ogma={this.ogma}/>
-            </div>
+            <OgmaContainer ogma={this.ogma}></OgmaContainer>
         );
     }
 }
