@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "node-sass": "^4.5.2",
     "react-scripts": "0.9.5"
   },
   "dependencies": {
@@ -22,11 +23,14 @@
     "react-measure": "^1.4.6",
     "react-photo-gallery": "^5.3.0",
     "react-popover": "^0.4.7",
+    "react-process-string": "^1.0.0",
     "react-router": "^4.0.0",
     "react-router-dom": "^4.0.0",
     "reactstrap": "^4.3.0"
   },
   "scripts": {
+    "build-css": "node-sass src/ -o src/",
+    "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

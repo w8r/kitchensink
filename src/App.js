@@ -11,6 +11,8 @@ import ReactPhotoGallery from './components/react-photo-gallery';
 import ReactHighcharts from './components/react-highcharts';
 import ReactD3 from './components/react-d3';
 import D3plus from './components/d3plus';
+import ProcessStrings from './components/process-strings';
+import './index.css';
 
 export default class App extends Component {
   render() {
@@ -30,6 +32,7 @@ export default class App extends Component {
 						<li><Link to="/react-reacthighcharts">react-reacthighcharts</Link></li>
 						<li><Link to="/react-d3">react d3 treemap</Link></li>
 						<li><Link to="/d3plus">d3plus treemap</Link></li>
+						<li><Link to="/process-strings">Process Strings</Link></li>
 
 					</ul>
 					<Layout>
@@ -39,6 +42,7 @@ export default class App extends Component {
 						<Route path="/react-reacthighcharts" component={ReactHighcharts} />
 						<Route path="/react-d3" component={ReactD3} />
 						<Route path="/d3plus" component={D3plus} />
+						<Route path="/process-strings" component={ProcessStrings} />
 			    	</Layout>
 		    		
 		    	</div>
