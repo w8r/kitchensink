@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 
+
 export default class OgmaContainer extends Component {
+	constructor(props){
+		super(props);
+	}
 	componentDidMount() {
     // When the component is mounted, set the rendered HTML as the container of Ogma
     // 'ogma-react' is the id of the HTML element that has been rendererd by the component
         this.props.ogma.render.setContainer('ogma-react');
+
     }
 
 
 	render(){
-        this.props.ogma.tooltip.onNodeClick(function(node){
-            console.log(node);
-        });
+
 		return(
 			<div>
 				Ogma

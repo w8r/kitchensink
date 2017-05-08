@@ -25,7 +25,7 @@ export default class ProcessStrings extends Component {
 		    }
 		}];
 
-		let stringWithLinks = "Watch this on youtube.com and www.facebook.com and https://t.co/KZlUjib2A7";
+		let stringWithLinks = "Watch this on youtube.com and www.facebook.com and https://t.co/KZlUjib2A7 https://github.com/vikjam/afterglow-theme";
 		let processed = processString(config)(stringWithLinks);
 
 		return(
