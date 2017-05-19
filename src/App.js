@@ -11,6 +11,7 @@ import ReactPhotoGallery from './components/react-photo-gallery';
 import ReactHighcharts from './components/react-highcharts';
 import ReactD3 from './components/react-d3';
 import D3plus from './components/d3plus';
+import D3bubble from './components/d3bubble';
 import ProcessStrings from './components/process-strings';
 import Scroll from './components/scroll';
 import './index.css';
@@ -33,6 +34,7 @@ export default class App extends Component {
 						<li><Link to="/react-reacthighcharts">react-reacthighcharts</Link></li>
 						<li><Link to="/react-d3">react d3 treemap</Link></li>
 						<li><Link to="/d3plus">d3plus treemap</Link></li>
+						<li><Link to="/d3bubble">d3 bubble</Link></li>
 						<li><Link to="/process-strings">Process Strings</Link></li>
 						<li><Link to="/scroll">Scroll</Link></li>
 
@@ -41,9 +43,10 @@ export default class App extends Component {
 						<Route path="/ogma" component={Network} />
 						<Route path="/react-popover" component={ReactPopovers} />
 						<Route path="/react-grid-library" component={Gallery} />
-						{/*<Route path="/react-reacthighcharts" component={ReactHighcharts} />
+						<Route path="/react-reacthighcharts" component={ReactHighcharts} />
 						<Route path="/react-d3" component={ReactD3} />
-						<Route path="/d3plus" component={D3plus} />*/}
+						<Route path="/d3plus" component={D3plus} />
+						<Route path="/d3bubble" component={D3bubble} />
 						<Route path="/scroll" component={Scroll} />
 			    	</Layout>
 

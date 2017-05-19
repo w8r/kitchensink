@@ -1,7 +1,7 @@
 // this is git tag v0.1 in develop branch
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App2';
+import App from './App';
 import './index.css';
 
 ReactDOM.render(
